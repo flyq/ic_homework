@@ -29,4 +29,10 @@ dfx canister --no-wallet --network ic call five3 post '("123456", "Hello, Here i
 
 
 dfx canister --no-wallet --network ic call five1 post '("123456", "Hello, Here is five1, this is the second blog I post, have fun, good night")'
+
+dfx canister --no-wallet --network ic call five post '("123456", "Hello, Here is five, 1234324234234")'
+
+
+dfx canister --no-wallet --network ic call five3 post '("123456", "111111111111")'
+
 ```
